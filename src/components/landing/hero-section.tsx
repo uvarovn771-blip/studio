@@ -17,9 +17,13 @@ export default function HeroSection() {
             </p>
           </div>
           <div className="flex justify-center">
-            <Button asChild size="lg" className="w-full shadow-lg shadow-primary/20">
+            <Button
+              asChild
+              size="lg"
+              className="h-24 w-full text-3xl font-bold shadow-lg shadow-primary/20"
+            >
               <Link href="https://secure.prodamus.ru/">
-                Купить курс <ArrowRight className="ml-2 h-5 w-5" />
+                Купить курс <ArrowRight className="ml-4 h-10 w-10" />
               </Link>
             </Button>
           </div>
