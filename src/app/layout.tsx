@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Dark Ascent Landing',
-  description: 'Покори Вершины Веб-разработки с нашим интенсивным курсом.',
+  title: 'Курс по становлению речи для детей',
+  description: 'Авторский курс от Натальи Уваровой, практикующего дефектолога-логопеда с 30-летним стажем.',
 };
 
 export default function RootLayout({

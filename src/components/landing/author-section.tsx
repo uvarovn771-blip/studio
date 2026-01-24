@@ -12,7 +12,7 @@ export default function AuthorSection() {
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Об авторе</h2>
             <p className="text-muted-foreground md:text-xl/relaxed">
-              Познакомьтесь с вашим наставником и проводником в мир разработки.
+              Познакомьтесь с вашим наставником и проводником в мир правильной речи.
             </p>
           </div>
           <Card className="overflow-hidden border-2 border-primary/20 shadow-lg">
@@ -29,15 +29,13 @@ export default function AuthorSection() {
                 )}
               </div>
               <div className="space-y-4 p-6 md:col-span-2 md:p-8">
-                <h3 className="text-2xl font-bold">Алексей Иванов</h3>
-                <p className="font-semibold text-primary">Ведущий разработчик, архитектор ПО</p>
+                <h3 className="text-2xl font-bold">Наталья Уварова</h3>
+                <p className="font-semibold text-primary">Практикующий дефектолог-логопед</p>
                 <p className="text-muted-foreground">
-                  Алексей — опытный full-stack разработчик с более чем 10-летним стажем в индустрии. Он работал в
-                  ведущих IT-компаниях, создавая высоконагруженные системы и менторя команды. Его страсть — делиться
-                  знаниями и помогать начинающим специалистам расти.
+                  Наталья Уварова — эксперт с фундаментальным образованием и колоссальным практическим опытом. Её подход сочетает классическую дефектологию и авторские наработки, которые позволяют запустить речь ребенка в игровой и доступной форме.
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Сертифицированный специалист по AWS, Google Cloud. Спикер на IT-конференциях.
+                  Более 30 лет в профессии, 2 высших образования, более 300 успешных кейсов.
                 </p>
               </div>
             </div>

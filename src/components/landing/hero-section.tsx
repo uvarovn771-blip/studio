@@ -10,17 +10,16 @@ export default function HeroSection() {
         <div className="mx-auto grid max-w-4xl gap-8 text-center">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-              Покори Вершины Веб-разработки
+              Курс по становлению речи для детей дошкольного возраста
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
-              Наш интенсивный курс - это ваш прямой путь к мастерству. Современные технологии, практические задачи и
-              поддержка экспертов.
+              Автор курса — Наталья Уварова, практикующий дефектолог-логопед с более чем 30-летним стажем. Два высших образования в сфере педагогики и дефектологии. Через её частную практику прошли более 300 детей, получив устойчивые результаты.
             </p>
           </div>
           <div className="flex justify-center">
             <Button asChild size="lg" className="shadow-lg shadow-primary/20">
-              <Link href="#">
-                Начать обучение <ArrowRight className="ml-2 h-5 w-5" />
+              <Link href="https://secure.prodamus.ru/">
+                Купить курс <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>
