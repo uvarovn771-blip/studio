@@ -12,7 +12,7 @@ export default function Header() {
         </Link>
         <div className="hidden items-center gap-4 md:flex">
           <Button asChild>
-            <Link href="https://secure.prodamus.ru/">Купить курс</Link>
+            <Link href="https://uvarovn771-blip.github.io/studio-success/">Купить курс</Link>
           </Button>
         </div>
       </div>

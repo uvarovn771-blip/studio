@@ -22,7 +22,7 @@ export default function HeroSection() {
               size="lg"
               className="h-24 w-full text-3xl font-bold shadow-lg shadow-primary/20"
             >
-              <Link href="https://secure.prodamus.ru/">
+              <Link href="https://uvarovn771-blip.github.io/studio-success/">
                 Купить курс <ArrowRight className="ml-4 h-10 w-10" />
               </Link>
             </Button>
