@@ -16,7 +16,7 @@ export default function AuthorSection() {
             <div className="md:grid md:grid-cols-3">
               <div className="relative h-64 w-full md:h-auto">
                 <Image
-                  src="/images/author.png"
+                  src="images/author.png"
                   alt="Professional headshot of the course author, Natalia Uvarova."
                   fill
                   className="object-cover"

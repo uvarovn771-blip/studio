@@ -3,7 +3,7 @@
     {
       "id": "author-headshot",
       "description": "Professional headshot of the course author, Natalia Uvarova.",
-      "imageUrl": "/images/author.png",
+      "imageUrl": "images/author.png",
       "imageHint": "woman phone"
     }
   ]
