@@ -1,10 +1,7 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function AuthorSection() {
-  const authorImage = PlaceHolderImages.find((p) => p.id === 'author-headshot');
-
   return (
     <section id="author" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -18,15 +15,13 @@ export default function AuthorSection() {
           <Card className="overflow-hidden border-2 border-primary/20 shadow-lg">
             <div className="md:grid md:grid-cols-3">
               <div className="relative h-64 w-full md:h-auto">
-                {authorImage && (
-                  <Image
-                    src={authorImage.imageUrl}
-                    alt={authorImage.description}
-                    fill
-                    className="object-cover"
-                    data-ai-hint={authorImage.imageHint}
-                  />
-                )}
+                <Image
+                  src="/images/author.png"
+                  alt="Professional headshot of the course author, Natalia Uvarova."
+                  fill
+                  className="object-cover"
+                  data-ai-hint="woman phone"
+                />
               </div>
               <div className="space-y-4 p-6 md:col-span-2 md:p-8">
                 <h3 className="text-2xl font-bold">Наталья Уварова</h3>
