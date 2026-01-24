@@ -1,8 +1,18 @@
+'use client';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { Checkbox } from '@/components/ui/checkbox';
 
-export default function HeroSection() {
+interface HeroSectionProps {
+  isOfferAccepted: boolean;
+  onOfferAcceptanceChange: (checked: boolean) => void;
+}
+
+export default function HeroSection({
+  isOfferAccepted,
+  onOfferAcceptanceChange,
+}: HeroSectionProps) {
   return (
     <section className="relative w-full py-20 md:py-32 lg:py-40">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-primary/10 via-transparent to-transparent" />
@@ -16,16 +26,35 @@ export default function HeroSection() {
               Автор курса — Наталья Уварова, практикующий дефектолог-логопед с более чем 30-летним стажем. Два высших образования в сфере педагогики и дефектологии. Через её частную практику прошли более 300 детей, получив устойчивые результаты.
             </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center justify-center gap-4">
             <Button
               asChild
               size="lg"
               className="h-24 w-full text-3xl font-bold shadow-lg shadow-primary/20"
+              disabled={!isOfferAccepted}
             >
               <Link href="https://uvarovn771-blip.github.io/studio-success/">
                 Купить курс <ArrowRight className="ml-4 h-10 w-10" />
               </Link>
             </Button>
+            <div className="flex items-center space-x-2">
+              <Checkbox
+                id="offer"
+                checked={isOfferAccepted}
+                onCheckedChange={(checked) => onOfferAcceptanceChange(Boolean(checked))}
+              />
+              <label htmlFor="offer" className="text-xs text-muted-foreground">
+                Нажимая кнопку оплаты, я подтверждаю, что ознакомлен и согласен с
+                условиями{' '}
+                <Link
+                  href="/privacy"
+                  className="underline underline-offset-2 hover:text-primary"
+                >
+                  Оферты
+                </Link>
+                .
+              </label>
+            </div>
           </div>
         </div>
       </div>
