@@ -13,7 +13,7 @@ export default function Home() {
   const [isOfferAccepted, setIsOfferAccepted] = useState(true);
   return (
     <div className="flex min-h-[100dvh] flex-col bg-background text-foreground">
-      <Header />
+      <Header isOfferAccepted={isOfferAccepted} />
       <main className="flex-1">
         <HeroSection
           isOfferAccepted={isOfferAccepted}

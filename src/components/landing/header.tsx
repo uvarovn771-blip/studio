@@ -1,8 +1,14 @@
+'use client';
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Speech } from 'lucide-react';
 
-export default function Header() {
+interface HeaderProps {
+  isOfferAccepted: boolean;
+}
+
+export default function Header({ isOfferAccepted }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
@@ -11,8 +17,16 @@ export default function Header() {
           <span className="text-lg">Лого-Курс</span>
         </Link>
         <div className="hidden items-center gap-4 md:flex">
-          <Button asChild>
-            <Link href="https://uvarovn771-blip.github.io/studio-success/">Купить курс</Link>
+          <Button
+            disabled={!isOfferAccepted}
+            onClick={() => {
+              if (isOfferAccepted) {
+                window.location.href =
+                  'https://uvarovn771-blip.github.io/studio-success/';
+              }
+            }}
+          >
+            Купить курс
           </Button>
         </div>
       </div>
