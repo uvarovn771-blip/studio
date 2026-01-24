@@ -28,14 +28,12 @@ export default function HeroSection({
           </div>
           <div className="flex flex-col items-center justify-center gap-4">
             <Button
-              asChild
               size="lg"
               className="h-24 w-full text-3xl font-bold shadow-lg shadow-primary/20"
               disabled={!isOfferAccepted}
+              onClick={() => window.location.href = 'https://uvarovn771-blip.github.io/studio-success/'}
             >
-              <Link href="https://uvarovn771-blip.github.io/studio-success/">
-                Купить курс <ArrowRight className="ml-4 h-10 w-10" />
-              </Link>
+              Купить курс <ArrowRight className="ml-4 h-10 w-10" />
             </Button>
             <div className="flex items-center space-x-2">
               <Checkbox
