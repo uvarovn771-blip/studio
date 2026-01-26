@@ -5,7 +5,7 @@ const benefits = [
   {
     icon: <Video className="h-8 w-8 text-accent" />,
     title: '18 видеоуроков',
-    description: 'Короткие и емкие уроки по 5-10 минут, которые легко смотреть с ребенком.',
+    description: 'Короткие и емкие уроки по 5-10 минут, которые помогут вам легко и просто превратить неговорящего ребенка в болтуна.',
   },
   {
     icon: <Lightbulb className="h-8 w-8 text-accent" />,
