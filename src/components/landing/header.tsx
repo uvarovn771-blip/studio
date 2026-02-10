@@ -22,7 +22,7 @@ export default function Header({ isOfferAccepted }: HeaderProps) {
             onClick={() => {
               if (isOfferAccepted) {
                 window.location.href =
-                  'https://checkout.paypro.by/v2/confirm_order/prd_1349c083d2b8fd67/227';
+                  'https://checkout.paypro.by/v2/confirm_order/prd_47e0b5b5ce114e78/227';
               }
             }}
           >
