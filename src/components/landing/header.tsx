@@ -22,7 +22,7 @@ export default function Header({ isOfferAccepted }: HeaderProps) {
             onClick={() => {
               if (isOfferAccepted) {
                 window.location.href =
-                  'https://uvarovn771-blip.github.io/studio-success/';
+                  'https://checkout.paypro.by/v2/confirm_order/prd_1349c083d2b8fd67/227';
               }
             }}
           >
