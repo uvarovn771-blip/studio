@@ -16,7 +16,7 @@ export default function FloatingBuyButton({ isOfferAccepted }: FloatingBuyButton
         className="w-full"
         size="lg"
         disabled={!isOfferAccepted}
-        onClick={() => window.location.href = 'https://checkout.paypro.by/v2/confirm_order/prd_47e0b5b5ce114e78/227'}
+        onClick={() => window.location.href = 'https://checkout.paypro.by/v2/confirm_order/prd_d36e0d2d5a8cb241/227'}
       >
         <CreditCard className="mr-2 h-5 w-5" />
         Купить курс сейчас

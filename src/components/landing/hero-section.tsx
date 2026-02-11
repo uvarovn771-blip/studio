@@ -31,7 +31,7 @@ export default function HeroSection({
               size="lg"
               className="h-24 w-full text-3xl font-bold shadow-lg shadow-primary/20"
               disabled={!isOfferAccepted}
-              onClick={() => window.location.href = 'https://checkout.paypro.by/v2/confirm_order/prd_47e0b5b5ce114e78/227'}
+              onClick={() => window.location.href = 'https://checkout.paypro.by/v2/confirm_order/prd_d36e0d2d5a8cb241/227'}
             >
               Купить курс <ArrowRight className="ml-4 h-10 w-10" />
             </Button>
