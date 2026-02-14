@@ -21,6 +21,9 @@ export default function Header({ isOfferAccepted }: HeaderProps) {
             disabled={!isOfferAccepted}
             onClick={() => {
               if (isOfferAccepted) {
+                if (typeof (window as any).ym === 'function') {
+                  (window as any).ym(106830397, 'reachGoal', 'zakaz_click');
+                }
                 window.location.href =
                   'https://checkout.paypro.by/v2/confirm_order/prd_d36e0d2d5a8cb241/227';
               }
