@@ -50,9 +50,7 @@ export default function HeroSection({
                 Нажимая кнопку оплаты, я подтверждаю, что ознакомлен и согласен с
                 условиями{' '}
                 <Link
-                  href="https://sites.google.com/view/kursstanovlenierechi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/privacy"
                   className="underline underline-offset-2 hover:text-primary"
                 >
                   Оферты

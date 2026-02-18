@@ -26,7 +26,7 @@ export default function Footer() {
                     <span>Instagram</span>
                 </a>
             </nav>
-             <Link href="https://sites.google.com/view/kursstanovlenierechi/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground underline-offset-4 hover:underline">
+             <Link href="/privacy" className="text-sm font-medium text-muted-foreground underline-offset-4 hover:underline">
                 Политика конфиденциальности
             </Link>
         </div>
