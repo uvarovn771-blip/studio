@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Курс по становлению речи для детей',
+  title: 'Курс по запуску и становлению речи детей раннего возраста',
   description: 'Авторский курс от Натальи Уваровой, практикующего дефектолога-логопеда с 30-летним стажем.',
 };
 

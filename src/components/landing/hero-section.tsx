@@ -20,7 +20,7 @@ export default function HeroSection({
         <div className="mx-auto grid max-w-4xl gap-8 text-center">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-              Курс по запуску и развитию речи детей раннего возраста
+              Курс по запуску и становлению речи детей раннего возраста
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
               Автор курса — Наталья Уварова, практикующий дефектолог-логопед с более чем 30-летним стажем. Два высших образования в сфере педагогики и дефектологии. Через её частную практику прошли тысячи детей, получив устойчивые результаты при использовании данной методики
