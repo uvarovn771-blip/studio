@@ -12,7 +12,7 @@ export default function Footer() {
           </Link>
           <div className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             <p>© {new Date().getFullYear()} Наталья Уварова. Все права защищены.</p>
-            <p>наше местонахождение: Г. Жабинка Ул. Советская 6А</p>
+            <p>Наше местонахождение: Г. Жабинка Ул. Советская 6А</p>
           </div>
         </div>
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-6">
