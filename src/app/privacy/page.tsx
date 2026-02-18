@@ -1,8 +1,11 @@
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { ArrowLeft } from 'lucide-react';
 
 export default function PrivacyPage() {
     return (
       <div className="bg-background text-foreground">
-        <div className="container mx-auto max-w-4xl px-4 py-12 md:px-6 md:py-16">
+        <div className="container mx-auto max-w-4xl px-4 py-12 pb-28 md:px-6 md:py-16">
           <div className="space-y-8">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Политика Конфиденциальности и Оферта</h1>
   
@@ -61,6 +64,15 @@ export default function PrivacyPage() {
               <p className="text-muted-foreground">Для направления любых юридически значимых запросов, претензий или уведомлений, Пользователь обязан использовать только следующий адрес электронной почты: uvarovn771@gmail.com. Исполнитель обязуется рассмотреть обращение в установленный законом срок, при условии предоставления Пользователем полных данных для идентификации.</p>
             </div>
           </div>
+        </div>
+
+        <div className="fixed bottom-0 z-50 w-full border-t border-border/40 bg-background/95 p-4 backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden">
+            <Link href="/" passHref>
+                <Button className="w-full" size="lg">
+                    <ArrowLeft className="mr-2 h-5 w-5" />
+                    Вернуться на главную
+                </Button>
+            </Link>
         </div>
       </div>
     );
