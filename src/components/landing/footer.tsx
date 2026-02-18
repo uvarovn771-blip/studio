@@ -10,9 +10,10 @@ export default function Footer() {
             <Speech className="h-6 w-6 text-primary" />
             <p className="text-lg">Лого-Курс</p>
           </Link>
-          <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © {new Date().getFullYear()} Наталья Уварова. Все права защищены.
-          </p>
+          <div className="text-center text-sm leading-loose text-muted-foreground md:text-left">
+            <p>© {new Date().getFullYear()} Наталья Уварова. Все права защищены.</p>
+            <p>наше местонахождение: Г. Жабинка Ул. Советская 6А</p>
+          </div>
         </div>
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-6">
             <nav className="flex gap-4 sm:gap-6">
