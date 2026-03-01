@@ -32,6 +32,9 @@ export default function HeroSection({
               className="h-24 w-full text-3xl font-bold shadow-lg shadow-primary/20"
               disabled={!isOfferAccepted}
               onClick={() => {
+                if (typeof (window as any).ttq?.track === 'function') {
+                  (window as any).ttq.track('CompletePayment', { content_name: 'Курс логопедии', value: 20, currency: 'USD' });
+                }
                 if (typeof (window as any).ym === 'function') {
                   (window as any).ym(106830397, 'reachGoal', 'zakaz_click');
                 }
